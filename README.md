@@ -23,6 +23,7 @@ campus-crate/
 ├── styles.css        # গ্লোবাল সিএসএস ও টেলউইন্ড কনফিগারেশন
 ├── package.json      # প্রজেক্টের প্যাকেজ ডিপেনডেন্সি
 └── vite.config.js    # জাভাস্ক্রিপ্টের জন্য আপডেট করা Vite কনফিগারেশন
+```
 
 ### Prerequisites
 Make sure you have installed:

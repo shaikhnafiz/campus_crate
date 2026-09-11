@@ -200,10 +200,10 @@
 
 
 
-
+/* এটা হিরো সেকশনের জন্য  গ্রিড ডিজাইন */
 .hero-grid {
   background-color: var(--background);
-  background-image: linear-gradient(color-mix(in oklab, var(--primary) 7%, transparent) 1px, transparent 1px), linear-gradient(90deg, color-mix(in oklab, var(--primary) 7%, transparent) 1px, transparent 1px);
+  background-image: linear-gradient(color-mix(in oklab, var(--primary) 13%, transparent) 1px, transparent 1px), linear-gradient(90deg, color-mix(in oklab, var(--primary) 10%, transparent) 1px, transparent 1px);
   background-size: 32px 32px;
   mask-image: linear-gradient(to bottom, black 65%, transparent);
 }

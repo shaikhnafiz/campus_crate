@@ -1,0 +1,3 @@
+import { createFileRoute } from "@tanstack/react-router";
+import { FeedPage } from "@/components/feed-page";
+export const Route = createFileRoute("/to-let")({ head: () => ({ meta: [{ title: "Student Housing — Campus Crate" }, { name: "description", content: "Find trusted rooms, flats, and mess seats close to campus." }, { property: "og:title", content: "Student Housing — Campus Crate" }, { property: "og:description", content: "Find trusted rooms, flats, and mess seats close to campus." }, { property: "og:type", content: "website" }, { name: "twitter:card", content: "summary_large_image" }] }), component: () => <FeedPage module="housing"/> });

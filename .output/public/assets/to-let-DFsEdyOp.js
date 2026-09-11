@@ -1,0 +1,1 @@
+import{m as e}from"./button-AJdLQrHz.js";import{t}from"./feed-page-CvP160yZ.js";var n=e(),r=()=>(0,n.jsx)(t,{module:`housing`});export{r as component};

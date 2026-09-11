@@ -1,0 +1,3 @@
+import { createFileRoute } from "@tanstack/react-router";
+import { FeedPage } from "@/components/feed-page";
+export const Route = createFileRoute("/marketplace")({ head: () => ({ meta: [{ title: "Marketplace — Campus Crate" }, { name: "description", content: "Buy, sell, exchange, and donate useful items with fellow students." }, { property: "og:title", content: "Marketplace — Campus Crate" }, { property: "og:description", content: "Buy, sell, exchange, and donate useful items with fellow students." }, { property: "og:type", content: "website" }, { name: "twitter:card", content: "summary_large_image" }] }), component: () => <FeedPage module="market"/> });
